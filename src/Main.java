@@ -74,14 +74,15 @@ public class Main {
         int one = 1;
         int two = 2;
         int three = 3;
-        if (three>two) {
+        if (three > two && three > one) {
             System.out.println("больше three");
         } else {
-            if (two>one) {
+            if (two > one && two > three) {
                 System.out.println("больше two");
             } else {
                 System.out.println("больше one");
             }
         }
+
     }
 }
